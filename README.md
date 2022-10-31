@@ -32,8 +32,6 @@ After computing, the output is in folder "matrix", where "matrix.csv" is collisi
 
 I should declare that some of  program codes in ".../collision/main.f95" is redundant. Because I have tried different methods to compute droplet motions (like Hamielec 1962 ,and Beard 1976...), and finally decide to choose the former one, since it fits relatively well with all the sizes of droplets with different Reynolds numbers (when there's no electric charge). Other methods have been abandoned, while they can still be activated by changing some parameters.
 
-
-
 (B)
 ".../stochastic/main.f95" is for solving the stochastic collision equation (SCE),based on the efficiencies & kernels already derived.
 Coalescence efficiencies are got in in advance, and saved in "coal_efficiency_beard.csv".
@@ -69,9 +67,6 @@ main
 where the first number means initial average radius r=15, 9, 6.5μm
 and the second number means different initial electric condition: 1=uncharged cloud, 2=charged without field, 3=charged under 200V/m, 4=charged under 400V/m.
 All the results of cloud spectrum will be output into these folders named as "30", "60", "120"
-
-
-
 
 (C)
 Then you can use MATLAB to plot figures based on these data. 
