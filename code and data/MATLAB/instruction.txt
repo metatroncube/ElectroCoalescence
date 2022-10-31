@@ -1,0 +1,12 @@
+All the MATLAB files in this folder are used for plotting those figures in the paper.
+
+WARNING: path should be changed to fit in with your computer.
+
+For example:
+
+
+load ('D:\Fortran\collision\scales.txt');
+
+should be changed to
+
+load ('D:\...\collision\scales.txt'); where "..." is your path.
