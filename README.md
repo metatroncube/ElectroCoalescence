@@ -63,7 +63,7 @@ main
 3 3
 main
 3 4
---------------------------------------------------
+______________________
 where the first number means initial average radius r=15, 9, 6.5μm
 and the second number means different initial electric condition: 1=uncharged cloud, 2=charged without field, 3=charged under 200V/m, 4=charged under 400V/m.
 All the results of cloud spectrum will be output into these folders named as "30", "60", "120"
@@ -71,11 +71,11 @@ All the results of cloud spectrum will be output into these folders named as "30
 (C)
 Then you can use MATLAB to plot figures based on these data. 
 For example, in ".../MATLAB/Spectrum_Comparision.m":
---------------------------
+______________________
 totaltime=120;
 path=strcat('D:\...\Fortran\stochastic\',num2str(totaltime),'\spectrum')
 ...
---------------------------
+______________________
 you can choose "30", "60" or "120", to generate Figure 7,8,10 in the paper separately.
 
 It's important that paths in those MATLAB files, such as "('D:\...\stochastic\')", should be changed manually to fit in with your computer!
